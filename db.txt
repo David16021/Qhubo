@@ -1,0 +1,12 @@
+create database contactar;
+use contactar;
+
+create table contactos(
+id int primary key auto_increment,
+nombre	varchar	(	40	)	,
+email	varchar	(	30	)	,
+ciudad	varchar	(	40	)	,
+mensaje	text	(	1000	));
+
+
+SELECT * FROM contactos;
